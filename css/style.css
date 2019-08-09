@@ -1563,7 +1563,7 @@ h1, h2, h3, h4, h5, h6, figure {
     box-shadow: none;
     border: 1px solid rgba(0, 0, 0, 0.8); }
 
-input[type="text"] {
+input [type="text"] {
   height: 50px; }
 
 .form-group {
@@ -1669,8 +1669,8 @@ input[type="text"] {
 
 .qbstp-header-subscribe button {
   position: absolute;
-  top: 0;
-  right: -4px;
+  top: -20px;
+  right: 64px;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   background: #000;
@@ -2114,3 +2114,62 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+ .content{
+    display: flex;
+    justify-content:flex-start;
+    width: 80vw;
+    margin-top: 45px;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 5px;
+    width: 60vw;
+    
+}
+
+input[type=radio] {
+    width: 20%;
+}
+input[type=submit], select {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.sly{
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .content {
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 40vw;
+    }
+    
+.talk, select {
+    border-radius: 5px;
+    padding: 5px;
+    width: 40vw;
+    }
+
+    .work {
+    border-radius: 5px;
+    padding: 5px;
+    width: 40vw;
+    height: 10vw;
+
+    }
+
+    
+
+  p,h1,h2,h3,h4,h5,h6{
+  	color: black;
+  }
+}

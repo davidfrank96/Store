@@ -494,7 +494,7 @@ input[type="date" i] {
 /* ==========================================================================
    #FORM
    ========================================================================== */
-input {
+input, textarea {
   outline: none;
   margin: 0;
   border: none;
@@ -504,6 +504,34 @@ input {
   width: 100%;
   font-size: 14px;
   font-family: inherit;
+}
+
+.top{
+  margin-bottom: 45px;
+  background-color: #1a1a1a;
+  border-radius:10px;
+  text-align: center;
+}
+
+.space{
+  margin-bottom: 45px;
+ 
+}
+
+.wise{
+  color:white;
+  margin-top:30%;
+  text-align: center;
+}
+
+.text{
+  color:white;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.love{
+  display:flex;
 }
 
 .radio-container {
