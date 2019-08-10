@@ -1,0 +1,76 @@
+body {
+background-color: yellow;
+    color:#fff;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
+.header {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content:flex-start;
+    width: 80vw;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 5px;
+    width: 60vw;
+    
+}
+
+input[type=radio] {
+    width: 20%;
+}
+input[type=submit], select {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.sly{
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .content {
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 40vw;
+    }
+    
+.talk, select {
+    border-radius: 5px;
+    padding: 5px;
+    width: 40vw;
+    }
+
+    .work {
+    border-radius: 5px;
+    padding: 5px;
+    width: 40vw;
+    height: 10vw;
+
+    }
+
+    
+
+  p,h1,h2,h3,h4,h5,h6{
+  	color: black;
+  }
+}
