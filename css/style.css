@@ -18,6 +18,11 @@ body {
   color: #595959;
   background: #fff; }
 
+  img.me {
+    width: 70%;
+    height: 10%;
+  }
+
 #page {
   position: relative;
   overflow-x: hidden;
